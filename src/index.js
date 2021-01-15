@@ -24,16 +24,19 @@ function mainRender() {
         <SecondsCounter first={one} second={two} third={three} fourth={four} />
         <div className="row">
           <div className="col" id="play" onClick={resumeInt}>
+            <span className='texts'>Play</span>
             <a className="btn btn-info btn-lg m-4">
               <i class="fas fa-play"></i>
             </a>
           </div>
           <div className="col" id="pause" onClick={stopInt}>
+          <span className='texts'>Stop</span>
             <a className="btn btn-danger btn-lg m-4">
               <i class="fas fa-pause-circle"></i>
             </a>
           </div>
           <div className="col" id="refresh" onClick={resetInt}>
+          <span className='texts'>Reset</span>
             <a className="btn btn-success btn-lg m-4">
               <i class="fas fa-redo-alt"></i>
             </a>
