@@ -1,0 +1,50 @@
+.fa-clock,
+.col-1 {
+  font-size: 30px;
+  color: white;
+}
+
+.fa-clock {
+  color: rgb(95, 116, 173);
+}
+
+#parentRow {
+  background: rgb(15, 71, 78);
+  background: linear-gradient(
+    188deg,
+    rgba(15, 71, 78, 1) 0%,
+    rgba(69, 116, 116, 1) 100%
+  );
+}
+
+.col-1 {
+  background: rgb(85, 90, 91);
+  background: linear-gradient(
+    188deg,
+    rgba(85, 90, 91, 1) 0%,
+    rgba(21, 22, 22, 1) 100%
+  );
+  border: 2px solid white;
+  border-radius: 50px;
+  text-align: center;
+}
+
+#play {
+  background: rgb(228, 239, 243);
+  text-align: center;
+}
+
+#pause {
+  background: rgb(236, 224, 224);
+  text-align: center;
+}
+
+#refresh {
+  background: rgb(226, 245, 196);
+  text-align: center;
+}
+
+.btn-success, .btn-danger, .btn-info {
+  font-size: 35px !important;
+  width: 80px;
+}
