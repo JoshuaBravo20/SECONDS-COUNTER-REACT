@@ -56,6 +56,7 @@ function mainRender() {
   }
 
   function resetInt() {
+    stopInt();
     mainRender();
     count = 0;
   }
